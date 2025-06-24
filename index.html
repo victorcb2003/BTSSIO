@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie DB API</title>
+    <script defer src="app.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Mon app de cinéma</h1>
+    <div class="main">
+
+        <div class="input-part">
+            <input class="search" type="text" placeholder="checher un film ou une série...">
+            <button class="searchBtn">Rechercher</button>
+            <button class="favBtn">Favoris</button>
+        </div>
+        
+        <div class="filters-menu">
+            <section>
+                Films
+                <input type="checkbox" id="Films">
+                Séries
+                <input type="checkbox" id="Séries">
+                <input type="text" id="année" placeholder="Année">
+                <input type="text" id="genre" placeholder="Genre">
+
+            </section>
+        </div>
+
+        <div class="resultats">
+            <!-- Afficher les résultats de l'API  -->
+        </div>
+
+    </div>
+</body>
+</html>
